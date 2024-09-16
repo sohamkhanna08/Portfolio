@@ -151,3 +151,32 @@ footer {
     bottom: 0;                     
     width: 100%;                                 
 }
+
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 900px) {
+    .nav-links {
+        text-align: center;
+        display: flex;
+        flex-direction: column;        
+    }
+
+    .nav-links li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .action-buttons button {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    footer {
+        font-size: 12px;
+        height: auto;
+        padding: 10px;
+    }
+}
+
