@@ -154,7 +154,7 @@ nav {
     font-weight: bold;
 }
 
-.action-buttons button:first-child {
+#view_resume {
     font-size: large;
     background-color: black;
     color: white;
