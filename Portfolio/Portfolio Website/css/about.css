@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+hr{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    margin-left: 15px;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.portfolio-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+nav {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    font-weight: bold;
+}
+
+.contact-btn {
+    padding: 10px 20px;
+    background-color: #00b3ff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    background-color: #007bff;
+}
+
+.qualification {
+    text-align: center;
+    padding: 40px 0;
+    height: 60vh;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.entry {
+    text-align: center;
+    background: #fff;
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    width: 100%;
+    height: 60vh;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.entry h3 {
+    margin: 0;
+    color: #007BFF;
+}
+
+.entry p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.entry span {
+    display: block;
+    margin: 10px 0;
+    color: #999;
+}
+
+.entry a {
+    color: #007BFF;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 0.5rem;
+    border: #007bff 2px solid;
+}
+
+
+footer {
+    padding: 5px;                 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    height: 1cm;                  
+    position: fixed;              
+    bottom: 0;                     
+    width: 100%;                                 
+}
+
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 900px) {
+    .nav-links {
+        text-align: center;
+        display: flex;
+        flex-direction: column;        
+    }
+
+    .nav-links li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .action-buttons button {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    footer {
+        font-size: 12px;
+        height: auto;
+        padding: 10px;
+    }
+}
+
